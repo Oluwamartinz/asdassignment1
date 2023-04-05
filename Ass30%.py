@@ -5,9 +5,11 @@ Created on Thu Mar 30 12:30:45 2023
 
 @author: macbookpro
 """
-
-import pandas as pd
+#importing dictionaries
 import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+
 
 # Read the CSV file into a pandas DataFrame
 df = pd.read_excel(r'https://api.worldbank.org/v2/en/indicator/EG.ELC.ACCS.ZS?downloadformat=excel', sheet_name = 'Data')
