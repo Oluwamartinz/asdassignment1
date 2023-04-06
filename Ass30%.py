@@ -105,7 +105,7 @@ def plt_bar(x, y, title, label, color, xaxes, yaxes):
     
     plt.figure(figsize=(10,6))
     index = np.arange(len(x))
-    
+    plt.title(title, fontweight="bold")
     
     for i in range(len(y)):
         plt.bar(x, y[i], label=label[i], color=color[i])
